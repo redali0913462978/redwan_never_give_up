@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Shaarp construction Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+NKo+Unjoined:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html"><img src="images/sharp logo1.jpg" height="100px" width="100px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html.html">Home</a></li>
+                    <li><a href="about us,html.html">ABOUT</a></li>
+                    <li><a href="items.html.html">ITEMS</a></li>
+                    <li><a href="ADMINISTRATIONS.html">ADEMINISTRATION</a></li>
+                    <li><a href="conact.html">EMPOLOYEE</a></li>  
+                </ul> 
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+    <!--------About US------->
+    <section class="About-Sharp">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world biggest Metal distributioner</h1>
+                <p>Sharp constuction Metal trading is the biggest metal distributioner 
+                    in the world specially in the horen of africa. sharp constuction have 
+                    big dream on the industry of Metal distribution all over the world and as well as 
+                    in the production site also play unsbistitionable roll, starting to collect the raw 
+                    metarial and forming or munfacturing different kind of metal</p>
+                <a href="" class="hero-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/sharp logo.jpg">
+            </div>
+        </div>
+    </section>
+    <!-------footer-------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>As you can see the above information sharp construction is the
+            best metal distribution<br>around the world and in the horern of Africa, 
+            so before dicede any thing<br> about baying metal equipment please contact us</p>
+        <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+
+           
+        </div>
+        <p>Made by <i class="fa-solid fa-heart-o"></i>Redwan Ali </p>
+
+
+    </section>
+    <!------JavaScript for Togglr Menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+    
+</body>
+</html>
